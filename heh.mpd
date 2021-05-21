@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with OEM(version=1.7.25) -->
+<MPD
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="urn:mpeg:dash:schema:mpd:2011"
+  xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+  xmlns:cenc="urn:mpeg:cenc:2013"
+  xmlns:mas="urn:marlin:mas:1-0:services:schemas:mpd"
+  type="static"
+  mediaPresentationDuration="PT46M41.560S"
+  maxSegmentDuration="PT7S"
+  minBufferTime="PT10S"
+  profiles="urn:mpeg:dash:profile:isoff-live:2011">
+  <Period
+    duration="PT46M41.560S">
+    <BaseURL>dash/</BaseURL>
+    <AdaptationSet
+      group="1"
+      contentType="audio"
+      minBandwidth="128000"
+      maxBandwidth="128000"
+      segmentAlignment="true"
+      audioSamplingRate="48000"
+      mimeType="audio/mp4"
+      codecs="mp4a.40.2">
+      <AudioChannelConfiguration
+        schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011"
+        value="2">
+      </AudioChannelConfiguration>
+      <!-- Common Encryption -->
+      <ContentProtection
+        schemeIdUri="urn:mpeg:dash:mp4protection:2011"
+        value="cenc"
+        cenc:default_KID="47B86141-8B03-43C3-8D75-20AD1F5192A1">
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection
+        schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection
+        schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+<mas:MarlinContentIds>
+  <mas:MarlinContentId>urn:marlin:kid:47b861418b0343c38d7520ad1f5192a1</mas:MarlinContentId>
+</mas:MarlinContentIds>
+      </ContentProtection>
+      <SegmentTemplate
+        timescale="48000"
+        initialization="10-0675-0002-001_18_1_VAR028-$RepresentationID$.dash"
+        media="10-0675-0002-001_18_1_VAR028-$RepresentationID$-$Time$.dash">
+        <SegmentTimeline>
+          <S t="0" d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" r="2" />
+          <S d="288768" />
+          <S d="287744" />
+          <S d="265216" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation
+        id="audio=128000"
+        bandwidth="128000">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet
+      group="2"
+      contentType="video"
+      par="16:9"
+      minBandwidth="460329"
+      maxBandwidth="1514792"
+      minWidth="512"
+      maxWidth="896"
+      minHeight="288"
+      maxHeight="504"
+      segmentAlignment="true"
+      frameRate="50"
+      mimeType="video/mp4"
+      codecs="avc1.64001F"
+      startWithSAP="1">
+      <!-- Common Encryption -->
+      <ContentProtection
+        schemeIdUri="urn:mpeg:dash:mp4protection:2011"
+        value="cenc"
+        cenc:default_KID="47B86141-8B03-43C3-8D75-20AD1F5192A1">
+      </ContentProtection>
+      <!-- Widevine -->
+      <ContentProtection
+        schemeIdUri="urn:uuid:EDEF8BA9-79D6-4ACE-A3C8-27DCD51D21ED">
+      </ContentProtection>
+      <!-- Marlin -->
+      <ContentProtection
+        schemeIdUri="urn:uuid:5E629AF5-38DA-4063-8977-97FFBD9902D4">
+<mas:MarlinContentIds>
+  <mas:MarlinContentId>urn:marlin:kid:47b861418b0343c38d7520ad1f5192a1</mas:MarlinContentId>
+</mas:MarlinContentIds>
+      </ContentProtection>
+      <SegmentTemplate
+        timescale="50"
+        initialization="10-0675-0002-001_18_1_VAR028-$RepresentationID$.dash"
+        media="10-0675-0002-001_18_1_VAR028-$RepresentationID$-$Time$.dash">
+        <SegmentTimeline>
+          <S t="0" d="300" r="465" />
+          <S d="278" />
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation
+        id="video=460329"
+        bandwidth="460329"
+        width="512"
+        height="288"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=650571"
+        bandwidth="650571"
+        width="512"
+        height="288"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=954462"
+        bandwidth="954462"
+        width="896"
+        height="504"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=1232056"
+        bandwidth="1232056"
+        width="896"
+        height="504"
+        scanType="progressive">
+      </Representation>
+      <Representation
+        id="video=1514792"
+        bandwidth="1514792"
+        width="896"
+        height="504"
+        scanType="progressive">
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
