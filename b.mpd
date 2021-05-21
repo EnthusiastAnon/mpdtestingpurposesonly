@@ -13,7 +13,7 @@
   profiles="urn:mpeg:dash:profile:isoff-live:2011">
   <Period
     duration="PT46M41.560S">
-    <BaseURL>https://itvpnpdotcom.cdn1.content.itv.com/10-0675-0002-001/18/1/VAR028/10-0675-0002-001_18_1_VAR028.ism/dash/</BaseURL>
+    <BaseURL>dash/</BaseURL>
     <AdaptationSet
       group="1"
       contentType="audio"
