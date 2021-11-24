@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:ms="urn:microsoft" xmlns:mspr="urn:microsoft:playready" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" mediaPresentationDuration="PT33M57.080S" minBufferTime="PT3S" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static">
+   <BaseURL>https://dashaz-dc-euwe.akamaized.net/317665ff-20b0-4e80-9982-34e73a76a39b/20210203171836_13932196.ism/</BaseURL>
+   <Period>
+      <AdaptationSet bitstreamSwitching="false" contentType="video" group="1" id="1" maxHeight="720" maxWidth="1280" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="2.0">
+            <mspr:pro>aAMAAAEAAQBeAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4ATgBNAGoATQA4AG8ARwBzAGYAawAyAG4AZABEADkARgBqAGIAMgB1AEMAUQA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgB3AE0AWAByAHgAMQBFAE4AVABNAHMAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBtAGUAZABpAGEAcwBlAHIAdgBpAGMAZQByAGEAaQBuAGUAdAAwADMALgBrAGUAeQBkAGUAbABpAHYAZQByAHkALgB3AGUAcwB0AGUAdQByAG8AcABlAC4AbQBlAGQAaQBhAC4AYQB6AHUAcgBlAC4AbgBlAHQALwBQAGwAYQB5AFIAZQBhAGQAeQAvADwALwBMAEEAXwBVAFIATAA+ADwAQwBVAFMAVABPAE0AQQBUAFQAUgBJAEIAVQBUAEUAUwA+ADwASQBJAFMAXwBEAFIATQBfAFYARQBSAFMASQBPAE4APgA4AC4AMAAuADIAMQAwADYALgAzADwALwBJAEkAUwBfAEQAUgBNAF8AVgBFAFIAUwBJAE8ATgA+ADwALwBDAFUAUwBUAE8ATQBBAFQAVABSAEkAQgBVAFQARQBTAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+         </ContentProtection>
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+            <cenc:pssh>AAAAMnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABISEPLMyDSsgU1+p3Q/RY29rgk=</cenc:pssh>
+            <ms:laurl licenseUrl="https://mediaservicerainet03.keydelivery.westeurope.media.azure.net/Widevine/?kid=f2ccc834-ac81-4d7e-a774-3f458dbdae09" />
+         </ContentProtection>
+         <SegmentTemplate initialization="QualityLevels($Bandwidth$)/Fragments(video=i,format=mpd-time-csf)" media="QualityLevels($Bandwidth$)/Fragments(video=$Time$,format=mpd-time-csf)" timescale="10000000">
+            <SegmentTimeline>
+               <S d="20000000" r="1017" />
+               <S d="10800000" />
+            </SegmentTimeline>
+         </SegmentTemplate>
+         <Representation bandwidth="1199850" codecs="avc1.4D401F" frameRate="25" height="414" id="1_V_video_1" scanType="progressive" width="736" />
+         <Representation bandwidth="2399732" codecs="avc1.4D4028" frameRate="25" height="720" id="1_V_video_2" scanType="progressive" width="1280" />
+         <Representation bandwidth="1799791" codecs="avc1.4D401F" frameRate="25" height="576" id="1_V_video_3" scanType="progressive" width="1024" />
+      </AdaptationSet>
+      <AdaptationSet bitstreamSwitching="false" codecs="mp4a.40.2" contentType="audio" group="5" id="3" lang="Italiano" mimeType="audio/mp4" segmentAlignment="true">
+         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="2.0">
+            <mspr:pro>aAMAAAEAAQBeAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4ATgBNAGoATQA4AG8ARwBzAGYAawAyAG4AZABEADkARgBqAGIAMgB1AEMAUQA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgB3AE0AWAByAHgAMQBFAE4AVABNAHMAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBtAGUAZABpAGEAcwBlAHIAdgBpAGMAZQByAGEAaQBuAGUAdAAwADMALgBrAGUAeQBkAGUAbABpAHYAZQByAHkALgB3AGUAcwB0AGUAdQByAG8AcABlAC4AbQBlAGQAaQBhAC4AYQB6AHUAcgBlAC4AbgBlAHQALwBQAGwAYQB5AFIAZQBhAGQAeQAvADwALwBMAEEAXwBVAFIATAA+ADwAQwBVAFMAVABPAE0AQQBUAFQAUgBJAEIAVQBUAEUAUwA+ADwASQBJAFMAXwBEAFIATQBfAFYARQBSAFMASQBPAE4APgA4AC4AMAAuADIAMQAwADYALgAzADwALwBJAEkAUwBfAEQAUgBNAF8AVgBFAFIAUwBJAE8ATgA+ADwALwBDAFUAUwBUAE8ATQBBAFQAVABSAEkAQgBVAFQARQBTAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+         </ContentProtection>
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+            <cenc:pssh>AAAAMnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABISEPLMyDSsgU1+p3Q/RY29rgk=</cenc:pssh>
+            <ms:laurl licenseUrl="https://mediaservicerainet03.keydelivery.westeurope.media.azure.net/Widevine/?kid=f2ccc834-ac81-4d7e-a774-3f458dbdae09" />
+         </ContentProtection>
+         <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main" />
+         <SegmentTemplate initialization="QualityLevels($Bandwidth$)/Fragments(audio_ita=i,format=mpd-time-csf)" media="QualityLevels($Bandwidth$)/Fragments(audio_ita=$Time$,format=mpd-time-csf)" timescale="10000000">
+            <SegmentTimeline>
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="7662585" />
+            </SegmentTimeline>
+         </SegmentTemplate>
+         <Representation audioSamplingRate="44100" bandwidth="189588" id="5_A_audio_ita_1" />
+      </AdaptationSet>
+      <AdaptationSet bitstreamSwitching="false" codecs="mp4a.40.2" contentType="audio" group="5" id="2" lang="V.O." mimeType="audio/mp4" segmentAlignment="true">
+         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" />
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:uuid:9A04F079-9840-4286-AB92-E65BE0885F95" value="2.0">
+            <mspr:pro>aAMAAAEAAQBeAzwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4ATgBNAGoATQA4AG8ARwBzAGYAawAyAG4AZABEADkARgBqAGIAMgB1AEMAUQA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgB3AE0AWAByAHgAMQBFAE4AVABNAHMAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APABMAEEAXwBVAFIATAA+AGgAdAB0AHAAcwA6AC8ALwBtAGUAZABpAGEAcwBlAHIAdgBpAGMAZQByAGEAaQBuAGUAdAAwADMALgBrAGUAeQBkAGUAbABpAHYAZQByAHkALgB3AGUAcwB0AGUAdQByAG8AcABlAC4AbQBlAGQAaQBhAC4AYQB6AHUAcgBlAC4AbgBlAHQALwBQAGwAYQB5AFIAZQBhAGQAeQAvADwALwBMAEEAXwBVAFIATAA+ADwAQwBVAFMAVABPAE0AQQBUAFQAUgBJAEIAVQBUAEUAUwA+ADwASQBJAFMAXwBEAFIATQBfAFYARQBSAFMASQBPAE4APgA4AC4AMAAuADIAMQAwADYALgAzADwALwBJAEkAUwBfAEQAUgBNAF8AVgBFAFIAUwBJAE8ATgA+ADwALwBDAFUAUwBUAE8ATQBBAFQAVABSAEkAQgBVAFQARQBTAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
+         </ContentProtection>
+         <ContentProtection cenc:default_KID="F2CCC834-AC81-4D7E-A774-3F458DBDAE09" schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+            <cenc:pssh>AAAAMnBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAABISEPLMyDSsgU1+p3Q/RY29rgk=</cenc:pssh>
+            <ms:laurl licenseUrl="https://mediaservicerainet03.keydelivery.westeurope.media.azure.net/Widevine/?kid=f2ccc834-ac81-4d7e-a774-3f458dbdae09" />
+         </ContentProtection>
+         <SegmentTemplate initialization="QualityLevels($Bandwidth$)/Fragments(audio_vor=i,format=mpd-time-csf)" media="QualityLevels($Bandwidth$)/Fragments(audio_vor=$Time$,format=mpd-time-csf)" timescale="10000000">
+            <SegmentTimeline>
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" />
+               <S d="20201360" />
+               <S d="20201361" r="1" />
+               <S d="20201360" />
+               <S d="7662585" />
+            </SegmentTimeline>
+         </SegmentTemplate>
+         <Representation audioSamplingRate="44100" bandwidth="189588" id="5_A_audio_vor_1" />
+      </AdaptationSet>
+      <AdaptationSet contentType="text" group="14" lang="Italiano" mimeType="text/vtt">
+         <Representation bandwidth="256" id="caption_ita">
+            <SegmentTemplate duration="2037" initialization="https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=13932349" media="https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=13932349" />
+         </Representation>
+      </AdaptationSet>
+      <AdaptationSet contentType="text" group="15" lang="Spagnolo" mimeType="text/vtt">
+         <Representation bandwidth="256" id="caption_esp">
+            <SegmentTemplate duration="2037" initialization="https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=13932333" media="https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=13932333" />
+         </Representation>
+      </AdaptationSet>
+   </Period>
+</MPD>
